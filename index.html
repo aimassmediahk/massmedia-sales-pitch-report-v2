@@ -35,6 +35,9 @@
         .competitor-card h4 { color: #1e3c72; margin-bottom: 10px; }
         .strategy-list { list-style: none; padding: 0; }
         .strategy-list li { padding: 12px 15px; margin: 10px 0; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea; }
+        .platform-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 15px 0; }
+        .platform-card { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 15px; }
+        .platform-card h4 { color: #1e3c72; margin-bottom: 10px; font-size: 1.1em; }
         @media (max-width: 600px) { .header { padding: 30px 20px; } .header h1 { font-size: 1.8em; } .content { padding: 20px; } }
     </style>
 </head>
@@ -231,45 +234,89 @@
                         <td>誤導性聲稱可能觸犯廣告法規</td>
                     </tr>
                     <tr>
-                        <td> сравнение</td>
+                        <td>競爭比較</td>
                         <td>如與競爭對手比較，需確保資料屬實及具有證據支持</td>
                         <td>誹謗或不當比較可能引發法律訴訟</td>
                     </tr>
                 </table>
             </div>
 
-            <h3>⚠️ Google Ads 敏感詞彙注意事項</h3>
-            <p>使用Google Ads推廣網頁設計服務時，需注意以下可能被拒絕之詞彙：</p>
+            <h3>⚠️ 社交媒體平台廣告規範一覽</h3>
+            <p>使用不同社交媒體平台進行推廣時，各平台有其特定之廣告政策與敏感詞彙限制：</p>
+
+            <div class="platform-grid">
+                <div class="platform-card">
+                    <h4>🔍 Google Ads</h4>
+                    <ul style="margin-left: 15px; font-size: 0.9em;">
+                        <li><strong>絕對性詞彙</strong>: 「100%」、「保證」、「必定」、「永久」</li>
+                        <li><strong>比較性詞彙</strong>: 「最Best」、「No.1」、「第一」</li>
+                        <li><strong>SEO相關</strong>: 「保證排名第一」</li>
+                        <li><strong>建議</strong>: 使用「高成功率」、「有信心」等替代</li>
+                    </ul>
+                </div>
+                <div class="platform-card">
+                    <h4>📘 Facebook Ads</h4>
+                    <ul style="margin-left: 15px; font-size: 0.9em;">
+                        <li><strong>爭議性內容</strong>: 政治、宗教、種族議題</li>
+                        <li><strong>敏感個人數據</strong>: 的健康、財務、種族等</li>
+                        <li><strong>違規詞彙</strong>: 「免費」、「零風險」、「保證賺錢」</li>
+                        <li><strong>建議</strong>: 避免過度承諾及爭議性話題</li>
+                    </ul>
+                </div>
+                <div class="platform-card">
+                    <h4>📸 Instagram Ads</h4>
+                    <ul style="margin-left: 15px; font-size: 0.9em;">
+                        <li><strong>身體形象</strong>: 嚴格審查瘦身減肥相關內容</li>
+                        <li><strong>虛假宣傳</strong>: 「快速致富」、「保證收入」</li>
+                        <li><strong>敏感内容</strong>: 酒精、賭博、煙草</li>
+                        <li><strong>建議</strong>: 保持專業、避免極端對比</li>
+                    </ul>
+                </div>
+                <div class="platform-card">
+                    <h4>📺 YouTube Ads</h4>
+                    <ul style="margin-left: 15px; font-size: 0.9em;">
+                        <li><strong>粗口言論</strong>: 前7秒內出現會影響廣告投放</li>
+                        <li><strong>敏感事件</strong>: 戰爭、災難、悲劇</li>
+                        <li><strong>仇恨內容</strong>: 歧視、誹謗、暴力</li>
+                        <li><strong>建議</strong>: 內容正規專業，避免爭議性表述</li>
+                    </ul>
+                </div>
+            </div>
 
             <table>
                 <tr>
-                    <th>詞彙類別</th>
-                    <th>常見被拒詞彙</th>
-                    <th>建議替代用語</th>
+                    <th>平台</th>
+                    <th>常見被拒詞彙/內容</th>
+                    <th>建議替代做法</th>
                 </tr>
                 <tr>
-                    <td>絕對性詞彙</td>
-                    <td>「100%」、「保證」、「必定」、「永久」</td>
-                    <td>「高成功率」、「有信心」、「長效」</td>
+                    <td>Google Ads</td>
+                    <td>「保證排名第一」、「100%滿意」、「最平」</td>
+                    <td>「提升排名機會」、「專業服務」、「實惠價格」</td>
                 </tr>
                 <tr>
-                    <td>比較性詞彙</td>
-                    <td>「最Best」、「No.1」、「第一」、「最平」</td>
-                    <td>「專業團隊」、「豐富經驗」、「多年歷史」、「實惠價格」</td>
+                    <td>Facebook</td>
+                    <td>「免費」、「零風險」、「保證回報」</td>
+                    <td>「免費咨詢」、「風險提示」、「潛在回報」</td>
                 </tr>
                 <tr>
-                    <td>SEO相關</td>
-                    <td>「保證排名第一」、「保證首頁」</td>
-                    <td>「SEO優化服務」、「提升排名機會」</td>
+                    <td>Instagram</td>
+                    <td>「快速瘦身」、「立即見效」、「完美」</td>
+                    <td>「改善體驗」、「效果因人而異」</td>
+                </tr>
+                <tr>
+                    <td>YouTube</td>
+                    <td>粗口、極端言論、敏感事件利用</td>
+                    <td>保持專業語調、內容正規</td>
                 </tr>
             </table>
 
             <div class="highlight">
                 <h3>💡 對Mass Media之價值啟示</h3>
-                <p>了解行業廣告合規要求，對於Mass Media之營銷策略具有以下價值：</p>
+                <p>了解各平台之廣告合規要求，對於Mass Media之營銷策略具有以下價值：</p>
                 <ol style="margin-left: 20px;">
                     <li><strong>專業形象</strong> - 合規之營銷內容展現專業態度，增強客戶信任</li>
-                    <li><strong>降低風險</strong> - 避免廣告被拒下架或法律責任</li>
+                    <li><strong>降低風險</strong> - 避免廣告被拒下架或帳戶被封禁</li>
                     <li><strong>差異化優勢</strong> - 「合規專業」成為區別於一般網頁設計公司之亮點</li>
                     <li><strong>客戶顧問角色</strong> - 可為美容、金融、醫療等受監管行業客戶提供網站合規建議</li>
                 </ol>
