@@ -23,7 +23,6 @@
         tr:nth-child(even) { background: #f8f9fa; }
         .highlight { background: #fff3cd; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #ffc107; }
         .insight { background: #e7f3ff; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #2196F3; }
-        .warning { background: #fce4ec; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #e91e63; }
         .cta { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 30px; border-radius: 15px; text-align: center; margin-top: 40px; }
         .cta h3 { color: #fff; margin-bottom: 15px; }
         .cta p { font-size: 1.1em; }
@@ -36,9 +35,6 @@
         .competitor-card h4 { color: #1e3c72; margin-bottom: 10px; }
         .strategy-list { list-style: none; padding: 0; }
         .strategy-list li { padding: 12px 15px; margin: 10px 0; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea; }
-        .do-dont { display: flex; gap: 15px; margin: 15px 0; flex-wrap: wrap; }
-        .do-box { flex: 1; min-width: 200px; background: #e8f5e9; padding: 15px; border-radius: 8px; border-left: 4px solid #4caf50; }
-        .dont-box { flex: 1; min-width: 200px; background: #ffebee; padding: 15px; border-radius: 8px; border-left: 4px solid #f44336; }
         @media (max-width: 600px) { .header { padding: 30px 20px; } .header h1 { font-size: 1.8em; } .content { padding: 20px; } }
     </style>
 </head>
@@ -61,7 +57,7 @@
                 <ul style="margin-left: 20px;">
                     <li><strong>客戶分析</strong>：深入了解目標客戶群體、其核心需求及痛點</li>
                     <li><strong>競爭對手分析</strong>：分析香港主要網頁設計公司之市場定位與營銷策略</li>
-                    <li><strong>行業廣告規範</strong>：說明不同行業之廣告合規要求與注意事項</li>
+                    <li><strong>行業廣告規範</strong>：說明網頁設計行業之廣告合規要求與注意事項</li>
                     <li><strong>數碼營銷策略建議</strong>：基於以上數據，提供具體可行之執行方案</li>
                 </ul>
             </div>
@@ -198,122 +194,52 @@
 
             <!-- Industry Specific Requirements -->
             <h2>⚖️ 行業廣告規範與合規要求</h2>
-            <p>不同行業之廣告宣傳受到不同法規約束，了解這些規範對制定合規之營銷策略至關重要。以下為香港主要行業類別之廣告合規要求：</p>
+            <p>作為Mass Media之核心客戶群，網頁設計行業之廣告宣傳相對寬鬆，但仍需注意以下事項，以確保營銷內容合規且具專業性：</p>
 
-            <h3>1. 美容及醫學美容行業</h3>
-            <div class="warning">
-                <h3>⚠️ 重要合規提醒</h3>
-                <p>香港美容行業之廣告宣傳受多項法規約束，違反規定可能導致廣告被拒下架或法律責任。</p>
-            </div>
-            
-            <div class="do-dont">
-                <div class="do-box">
-                    <h4>✅ 建議做法</h4>
-                    <ul>
-                        <li>使用效果描述而非絕對保證</li>
-                        <li>強調「過程」而非「結果」</li>
-                        <li>展示產品成分與安全性資訊</li>
-                        <li>引用用戶體驗而非醫學證明</li>
-                        <li>加入「效果因人而異」之風險提示</li>
-                    </ul>
-                </div>
-                <div class="dont-box">
-                    <h4>❌ 避免做法</h4>
-                    <ul>
-                        <li><strong>嚴禁使用Before/After效果圖</strong>（Google及社交平台普遍禁止）</li>
-                        <li>嚴禁使用「永久」、「確保見效」等絕對性詞彙</li>
-                        <li>嚴禁宣稱可治療或治癒任何疾病</li>
-                        <li>嚴禁使用醫生專業形象作推薦</li>
-                        <li>嚴禁使用「最有效」、「第一」等未經證實之聲稱</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3>2. 金融服務行業</h3>
-            <div class="warning">
-                <h3>⚠️ 重要合規提醒</h3>
-                <p>金融產品廣告受香港證券及期貨事務監察委員會（SFC）及金管局嚴格監管，Google Ads對金融相關關鍵字有特別審核要求。</p>
-            </div>
-            
-            <div class="do-dont">
-                <div class="do-box">
-                    <h4>✅ 建議做法</h4>
-                    <ul>
-                        <li>加入「投資涉及風險」之風險披露</li>
-                        <li>提供產品資料概要及風險評估文件</li>
-                        <li>使用「過往表現不代表未來結果」之提示</li>
-                        <li>清楚說明收費結構與條款細則</li>
-                        <li>確保內容符合SFC之廣告指引</li>
-                    </ul>
-                </div>
-                <div class="dont-box">
-                    <h4>❌ 避免做法</h4>
-                    <ul>
-                        <li>嚴禁使用「保證回報」、「零風險」等誤導性詞彙</li>
-                        <li>嚴禁承諾任何投資回報率（即使過往表現）</li>
-                        <li>嚴禁使用「最佳」、「首選」等未經認證之聲稱</li>
-                        <li>嚴禁忽視或淡化投資風險</li>
-                        <li>嚴禁未經授權推銷受規管之金融產品</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3>3. 醫療保健行業</h3>
-            <div class="do-dont">
-                <div class="do-box">
-                    <h4>✅ 建議做法</h4>
-                    <ul>
-                        <li>引用持牌醫療專業人士之建議</li>
-                        <li>提供健康資訊而非醫療建議</li>
-                        <li>加入「如有疑問請諮詢專業醫生」之提示</li>
-                        <li>強調產品之安全認證與檢測報告</li>
-                    </ul>
-                </div>
-                <div class="dont-box">
-                    <h4>❌ 避免做法</h4>
-                    <ul>
-                        <li>嚴禁宣稱可治療或預防任何疾病</li>
-                        <li>嚴禁使用醫療專業人士之形象作推薦</li>
-                        <li>嚴禁使用未經臨床驗證之健康聲稱</li>
-                    </ul>
-                </div>
-            </div>
-
-            <h3>4. 網頁設計行業 (Mass Media 所屬範疇)</h3>
             <div class="insight">
-                <h3>📋 網頁設計行業之合規要求</h3>
-                <p>相對於美容、金融及醫療行業，網頁設計行業之廣告限制較為寬鬆，但仍需注意以下事項：</p>
+                <h3>📋 網頁設計行業之廣告合規要求</h3>
                 
                 <table>
                     <tr>
                         <th>項目</th>
                         <th>建議做法</th>
+                        <th>風險提示</th>
                     </tr>
                     <tr>
                         <td>案例展示</td>
-                        <td>展示作品時需確保已獲客戶授權同意</td>
+                        <td>展示作品時需確保已獲客戶書面授權同意</td>
+                        <td>未經授權可能涉及侵犯客戶私隱或商業秘密</td>
                     </tr>
                     <tr>
                         <td>客戶評價</td>
                         <td>引用真實客戶評價，避免編造或誇大</td>
+                        <td>虛假陳述可能觸犯《商品說明條例》</td>
                     </tr>
                     <tr>
                         <td>服務承諾</td>
-                        <td>避免使用「100%滿意」等無法保證之承諾</td>
+                        <td>避免使用「100%滿意」、「保證排名」等無法保證之承諾</td>
+                        <td>過度承諾可能導致客戶投訴及法律風險</td>
                     </tr>
                     <tr>
                         <td>價格宣傳</td>
-                        <td>「明碼實價」為優勢，但需確保報價准确</td>
+                        <td>「明碼實價」為優勢，但需確保報價準確及包含所有費用</td>
+                        <td>隱藏費用可能構成不公平商業行為</td>
                     </tr>
                     <tr>
                         <td>SEO排名</td>
-                        <td>避免保證特定關鍵字排名（Google明確禁止）</td>
+                        <td>避免保證特定關鍵字排名第一（Google明確禁止此類保證）</td>
+                        <td>誤導性聲稱可能觸犯廣告法規</td>
+                    </tr>
+                    <tr>
+                        <td> сравнение</td>
+                        <td>如與競爭對手比較，需確保資料屬實及具有證據支持</td>
+                        <td>誹謗或不當比較可能引發法律訴訟</td>
                     </tr>
                 </table>
             </div>
 
-            <h3>5. Google Ads 敏感詞彙注意事項</h3>
-            <p>無論哪個行業，使用Google Ads推廣時需特別注意以下可能被拒絕之詞彙：</p>
+            <h3>⚠️ Google Ads 敏感詞彙注意事項</h3>
+            <p>使用Google Ads推廣網頁設計服務時，需注意以下可能被拒絕之詞彙：</p>
 
             <table>
                 <tr>
@@ -328,29 +254,24 @@
                 </tr>
                 <tr>
                     <td>比較性詞彙</td>
-                    <td>「最Best」、「No.1」、「第一」</td>
-                    <td>「專業團隊」、「豐富經驗」、「多年歷史」</td>
+                    <td>「最Best」、「No.1」、「第一」、「最平」</td>
+                    <td>「專業團隊」、「豐富經驗」、「多年歷史」、「實惠價格」</td>
                 </tr>
                 <tr>
-                    <td>醫療相關</td>
-                    <td>「治療」、「治癒」、「醫好」</td>
-                    <td>「改善」、「護理」、「舒緩」</td>
-                </tr>
-                <tr>
-                    <td>金融相關</td>
-                    <td>「回報」、「賺錢」、「穩賺」</td>
-                    <td>「潛在回報」、「資產增值」、「理財」</td>
+                    <td>SEO相關</td>
+                    <td>「保證排名第一」、「保證首頁」</td>
+                    <td>「SEO優化服務」、「提升排名機會」</td>
                 </tr>
             </table>
 
             <div class="highlight">
-                <h3>💡 對Mass Media之策略啟示</h3>
-                <p>了解各行業之廣告合規要求，對於服務不同行業之客戶極為重要：</p>
+                <h3>💡 對Mass Media之價值啟示</h3>
+                <p>了解行業廣告合規要求，對於Mass Media之營銷策略具有以下價值：</p>
                 <ol style="margin-left: 20px;">
-                    <li><strong>專業價值</strong> - Mass Media 可為美容、金融、醫療等受監管行業之客戶提供合規諮詢服務</li>
-                    <li><strong>降低風險</strong> - 協助客戶避免廣告被拒下架之風險，提升客戶信任度</li>
-                    <li><strong>差異化優勢</strong> - 「懂行業合規」成為區別於一般網頁設計公司之專業能力</li>
-                    <li><strong>內容建議</strong> - 為客戶提供「咁寫唔得」既專業意見，令客戶感受到Mass Media既專業價值</li>
+                    <li><strong>專業形象</strong> - 合規之營銷內容展現專業態度，增強客戶信任</li>
+                    <li><strong>降低風險</strong> - 避免廣告被拒下架或法律責任</li>
+                    <li><strong>差異化優勢</strong> - 「合規專業」成為區別於一般網頁設計公司之亮點</li>
+                    <li><strong>客戶顧問角色</strong> - 可為美容、金融、醫療等受監管行業客戶提供網站合規建議</li>
                 </ol>
             </div>
 
@@ -511,11 +432,6 @@
                     <td>Google Ads</td>
                     <td>關鍵字廣告投放策略</td>
                     <td>即時品牌曝光、精準客戶獲取</td>
-                </tr>
-                <tr>
-                    <td>行業合規諮詢</td>
-                    <td>針對美容/金融/醫療行業之合規網站設計建議</td>
-                    <td>避免廣告被拒、降低法律風險、提升專業形象</td>
                 </tr>
             </table>
 
